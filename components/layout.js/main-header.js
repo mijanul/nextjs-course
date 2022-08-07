@@ -8,7 +8,7 @@ function MainHeader() {
       <div className={classes.logo}>
         <Link href="/">NextEvents</Link>
       </div>
-      <nav className={classes.nav}>
+      <nav className={classes.navigation}>
         <ul>
           <li>
             <Link href="/events">Browse All Events</Link>

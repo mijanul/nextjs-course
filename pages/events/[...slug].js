@@ -32,7 +32,7 @@ function FilteredEventsPage() {
     month: numMonth,
   });
 
-  if (!filterData || filterData.length == 0) {
+  if (!filteredEvents || filteredEvents.length == 0) {
     return <p>No events found for the chosen filter!</p>;
   }
 
